@@ -1,0 +1,23 @@
+{
+  "name": "ip-reporter",
+  "version": "0.0.1",
+  "author": "Jacob Smith <js@jacobsmith.tech> (https://github.com/limeandcoconut)",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node index.js",
+    "prod": "NODE_ENV=production node index.js"
+  },
+  "keywords": [],
+  "license": "isc",
+  "dependencies": {
+    "got": "^10.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-limeandcoconut": "^1.3.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-unicorn": "^17.2.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
